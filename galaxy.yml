@@ -1,4 +1,5 @@
-name: "alikins.collection_reqs_all"
+namespace: "alikins"
+name: "collection_reqs_all"
 version: "1.0.0"
 description: "a collection that requires all test collections"
 authors: ["Adrian Likins"]

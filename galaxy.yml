@@ -1,6 +1,6 @@
 namespace: "alikins"
 name: "collection_reqs_all"
-version: "1.0.12"
+version: "1.0.13"
 description: "a collection that requires all test collections"
 authors: ["Adrian Likins"]
 license:

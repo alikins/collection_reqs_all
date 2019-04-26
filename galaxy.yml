@@ -1,13 +1,14 @@
 namespace: "alikins"
 name: "collection_reqs_all"
-version: "1.0.11"
+version: "1.0.12"
 description: "a collection that requires all test collections"
 authors: ["Adrian Likins"]
-license: "GPL-3.0-or-later"
+license:
+  - "GPL-3.0-or-later"
 tags:
   - collectiontest
 
 dependencies:
-  - alikins.collection_reqs_test
-  - alikins.collection_reqs_1deep_0
-  - alikins.collection_reqs_2deep_0
+  alikins.collection_reqs_test: '*'
+  alikins.collection_reqs_1deep_0: '*'
+  alikins.collection_reqs_2deep_0: '*'
